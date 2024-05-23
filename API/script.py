@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/addition")
 def addition(a: int, b: int):
-    return a + b
+    return a**3 + b**3
