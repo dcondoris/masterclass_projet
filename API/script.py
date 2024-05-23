@@ -6,6 +6,6 @@ app = FastAPI()
 def addition(a: int, b: int):
     return a + b
 
-@add.get("/soustraction")
+@app.get("/soustraction")
 def soustraction(a: int, b: int):
     return a - b
